@@ -8,6 +8,7 @@ categories: demo
 ## Rain Game
 
 Matrix digital rain, or Matrix code, is the computer code featured in the Ghost in the Shell series and the Matrix series. The falling green code is a way of representing the activity of the simulated reality environment of the Matrix on screen by kinetic typography. All four Matrix movies, as well as the spin-off The Animatrix episodes, open with the code. It is a characteristic mark of the franchise, similar to the opening crawl featured in the Star Wars franchise. 
+
 This code showers different colors of Rain (Light Green, Light Aqua, Light Purple, Light Yellow, White) and only allows some special Characters.
 For example:
 
