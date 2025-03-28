@@ -34,7 +34,7 @@ This project is programmed in C++ with a terminal based simulation of the Matrix
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/6.png" width="650" height="300">
 
 ### Final Demo:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/demo2.gif" width="450" height="400">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/demo2.gif" width="550" height="350">
 
 
 
