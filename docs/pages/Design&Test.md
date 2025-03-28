@@ -23,7 +23,7 @@ This design ensures that character retrieval during animation
 
 
 ## Raindrop Class 
-Each falling stream is an instance of the Raindrop class, initialized with random characters sequences. 
+### Each falling stream is an instance of the Raindrop class, initialized with random characters sequences. 
 > Raindrop::Raindrop(int x, int y, int length) : x(x), y(y), length(length) 
 
 This uses an initializer list to initialize the object's properties.
