@@ -20,3 +20,32 @@ To maintain consistency, reduce runtime overhead, and prevent accidental modific
 }
 
 This design ensures that character retrieval during animation
+
+
+## Raindrop Class 
+Each falling stream is an instance of the Raindrop class, initialized with random characters sequences. 
+> Raindrop::Raindrop(int x, int y, int length) : x(x), y(y), length(length) 
+
+This uses an initializer list to initialize the object's properties.
+> void Raindrop::update()
+
+
+The update() function advances the y-position of each stream cyclically using module % arithmetic.
+> void Raindrop::draw() 
+
+The draw() method renders characters using randomized colour shades.
+
+## MatrixRain Class 
+The MatrixRain class orchestrates the overall simulation.
+> void MatrixRain::initializeRaindrops()
+
+This streams are initialized randomly across screen columns and each raindrop has a random position and length.
+> void MatrixRain::start()
+
+This runs the main animation loop and renders raindrops continuously unless paused. It waits for a certain amount of time and handles user input.
+>void MatrixRain::stop()
+
+Stops the animation and resets the console cursor.
+>void MatrixRain::handleInput()
+
+This function reads the keyboard input using `_kbhit()` and `_getch()`
