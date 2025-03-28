@@ -19,7 +19,7 @@ This project is programmed in C++ with a terminal based simulation of the Matrix
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/1.png" width="650" height="300">
 
 ### Image 2:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/2.png" width=650" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/2.png" width="650" height="300">
 
 ### Image 3:
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/3.png" width="650" height="300">
