@@ -2,7 +2,7 @@
 
 
 ### Table of Contents
- - [Introduction](/docs/pages/Introduction.html)
+ - [Introduction](/docs/pages/Introduction.md)
  - Design & Test
  - Algorithm
  - Problem-solving
