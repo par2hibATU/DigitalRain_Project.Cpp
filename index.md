@@ -32,6 +32,8 @@ A bullet list:
 - algorithms
 - iterators
 
+- **Digital rain**, or **Matrix code**, is the visual effect of vertically falling [computer code](https://en.wikipedia.org/wiki/Source_code "Source code") popularised by the 1999 film [_The Matrix_](https://en.wikipedia.org/wiki/The_Matrix "The Matrix"). The code is a way of representing the activity of the [simulated reality](https://en.wikipedia.org/wiki/Simulated_reality "Simulated reality") environment of the [Matrix](https://en.wikipedia.org/wiki/Matrix_(fictional_universe) "Matrix (fictional universe)") on screen by [kinetic typography](https://en.wikipedia.org/wiki/Kinetic_typography "Kinetic typography"). All four [_Matrix_  movies](https://en.wikipedia.org/wiki/The_Matrix_(franchise) "The Matrix (franchise)"), as well as episodes of the spin-off _[The Animatrix](https://en.wikipedia.org/wiki/The_Animatrix)_, open with the code. It is a characteristic mark of the franchise, similar to the [opening crawl](https://en.wikipedia.org/wiki/Star_Wars_opening_crawl "Star Wars opening crawl") featured in the _[Star Wars](https://en.wikipedia.org/wiki/Star_Wars "Star Wars")_ franchise.
+
 You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
