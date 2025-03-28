@@ -6,7 +6,7 @@ A well defined character set, stated as a **constexpr static wchar_t** array, is
  - Unchangeable, guaranteeing consistency and guarding against unintentional alteration  
  - Effective since the symbol pool is quickly accessed during animation rendering and kept in read-only memory.
 
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/11.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/11.png" width="800" height="300">
 
 The **wchar_t** type is used to support a wide range of wide Unicode characters, giving the rain effect a rich and diverse appearance by combining digits, Latin letters, Greek letters, phonetic symbols, and space padding for realism.
 
