@@ -2,7 +2,7 @@
 layout: post
 title: Digital Rain Matrix
 tags: cpp coding project
-categories: demo
+categories: Final
 ---
 
 ## Rain Game
