@@ -36,7 +36,7 @@ The update() function advances the y-position of each stream cyclically using mo
 The draw() method renders characters using randomized colour shades.
 
 ## MatrixRain Class 
-The MatrixRain class orchestrates the overall simulation.
+### The MatrixRain class orchestrates the overall simulation.
 > void MatrixRain::initializeRaindrops()
 
 This streams are initialized randomly across screen columns and each raindrop has a random position and length.
