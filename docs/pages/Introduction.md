@@ -22,6 +22,7 @@ The animation is structured around two main components:
  - **MatrixRain class**: Multiple Raindrop objects are initialized, frame-by-frame rendering is managed, user input is handled (such as stopping, quitting, and speed adjustments), and the main animation loop is maintained. Real-time responsiveness is made possible by controlling the simulation pace with std::this_thread::sleep_for.
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/15.png" width="650" height="300">
+
 _kbhit() and _getch() from **conio.h** are used to detect user inputs non-blocking, providing smooth control without breaking the animation flow.
 
 
