@@ -15,25 +15,25 @@ This project is programmed in C++ with a terminal based simulation of the Matrix
 
 ## Visual Highlights :
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/1.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/2.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/3.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/4.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/5.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/6.png" width="400" height="300">
 
 ### Image 1:
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-02-26 111652.png" width="400" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/demo.gif" width="400" height="300">
 
 
 
