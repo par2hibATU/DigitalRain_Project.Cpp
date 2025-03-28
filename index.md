@@ -5,7 +5,7 @@
  - [Introduction](/docs/pages/Introduction.md)
  - [Design & Test](/docs/pages/Design&Test.md)
  - [Algorithm](/docs/pages/Algorithm.md)
- - Problem-solving
+ - [Problem-solving](/docs/pages/ProblemSolving.md)
  - Modern C++ insight & reflection
 
 ## Digital Rain
