@@ -41,7 +41,7 @@ This function calls `update()` and `draw()` function where `update()` function:
 
 This increments the y-position of the drop and wraps around if it reaches the bottom and `draw()` function:
 
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/29.png" width="650" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/29.png" width="850" height="300">
 
 This moves the cursor to the raindrop's current position and chooses a random green shade for visual effect. This is also responsible for printing a random symbol from the symbols vector.
 
