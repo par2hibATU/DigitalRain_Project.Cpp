@@ -2,7 +2,7 @@
 
 
 ### Table of Contents
- - [Introduction](https://github.com/par2hibATU/DigitalRain_Project.Cpp/blob/main/Introduction.html)
+ - [Introduction](/docs/pages/Introduction.html)
  - Design & Test
  - Algorithm
  - Problem-solving
