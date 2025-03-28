@@ -38,6 +38,12 @@ This project is programmed in C++ with a terminal based simulation of the Matrix
 
 
 
+## References
+[Wikipedia](https://en.wikipedia.org/wiki/Digital_rain)
+
+
+
+
 
 
 
