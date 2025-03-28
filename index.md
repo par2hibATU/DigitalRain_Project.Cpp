@@ -1,7 +1,7 @@
 # Digital Rain  with Modern C++
 
 
- ## Table of Contents
+### Table of Contents
  - Introduction
  - Design & Test
  - Algorithm
