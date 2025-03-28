@@ -4,7 +4,7 @@
 ### Table of Contents
  - [Introduction](/docs/pages/Introduction.md)
  - [Design & Test](/docs/pages/Design&Test.md)
- - Algorithm
+ - [Algorithm](/docs/pages/Algorithm.md)
  - Problem-solving
  - Modern C++ insight & reflection
 
