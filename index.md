@@ -6,7 +6,7 @@
  - [Design & Test](/docs/pages/Design&Test.md)
  - [Algorithm](/docs/pages/Algorithm.md)
  - [Problem-solving](/docs/pages/ProblemSolving.md)
- - Modern C++ insight & reflection
+ - [Modern C++ insight & reflection](/docs/pages/Insights.md)
 
 ## Digital Rain
 **Digital rain**, or **Matrix code**, is the  [computer code](https://en.wikipedia.org/wiki/Source_code "Source code")   featured in the Ghost in the Shell series of 1999 film [_The Matrix_](https://en.wikipedia.org/wiki/The_Matrix "The Matrix"). The falling green code is a way of representing the activity of the [simulated reality](https://en.wikipedia.org/wiki/Simulated_reality "Simulated reality") environment of the [Matrix](https://en.wikipedia.org/wiki/Matrix_(fictional_universe) "Matrix (fictional universe)") on screen by [kinetic typography](https://en.wikipedia.org/wiki/Kinetic_typography "Kinetic typography"). All four [_Matrix_  movies](https://en.wikipedia.org/wiki/The_Matrix_(franchise) "The Matrix (franchise)"), as well as episodes of the spin-off _[The Animatrix](https://en.wikipedia.org/wiki/The_Animatrix)_, open with the code. It is a characteristic mark of the franchise, similar to the [opening crawl](https://en.wikipedia.org/wiki/Star_Wars_opening_crawl "Star Wars opening crawl") featured in the _[Star Wars](https://en.wikipedia.org/wiki/Star_Wars "Star Wars")_ franchise.
