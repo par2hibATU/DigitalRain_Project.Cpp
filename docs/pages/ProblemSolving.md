@@ -16,3 +16,6 @@ First problem I faced was scattered symbol printing all over the screen instead 
   <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/34.png" width="650" height="300">
   
   Ensured this function to make sure the output is updated properly.
+
+Another problem I faced was **Flickering Effect**.  The new frames was overwriting old ones and that was one of the features I wanted to achieve but there was some gap when the screen was fully blank for few seconds between erasing the old symbols and rewriting the new symbols.
+**Fix:** Instead of clearing the screen repeatedly (`system("cls")`), maintain an off-screen buffer and write to it before outputting to the console. So, I included (`system("cls")`) in the `main()`  so that the symbols are write to it before outputting to the console.
