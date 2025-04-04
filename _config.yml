@@ -6,4 +6,4 @@ author:
 description: "An Interesting Modern C++ Blog"
 
 # Build settings
-remote_theme: henrythemes/material-jekyll
+remote_theme: poole/lanyon
