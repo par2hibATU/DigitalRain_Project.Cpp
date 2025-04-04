@@ -1,7 +1,7 @@
-# Digital Rain  with Modern C++
-
+# Home
 
 ### Table of Contents
+ - [Home](/index.md)
  - [Introduction](/docs/pages/Introduction.md)
  - [Design & Test](/docs/pages/Design&Test.md)
  - [Algorithm](/docs/pages/Algorithm.md)
