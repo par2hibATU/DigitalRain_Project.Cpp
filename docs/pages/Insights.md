@@ -12,7 +12,7 @@ constexpr static wchar_t allowedCharacters[] = {
 };
 ```
 
-In modern C++, `constexpr` is a way to clearly express intent telling the compiler that these values are fixed and known in advance.
+In modern C++, `constexpr` is a way to clearly express the intent of telling the compiler that these values are fixed and known in advance.
 
 Additionally, memory handling became safer and more versatile by using `std::vector` to store raindrop symbols rather than raw arrays. Everything is kept organised and manageable by the code's clean division into classes like `Raindrop` and `MatrixRain`. For instance, `MatrixRain` manages the overall control, rendering, and user input, whereas `Raindrop` concentrates just on symbol production and movement.
 
