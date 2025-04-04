@@ -65,8 +65,13 @@ if (!paused) {
 ```
 
 So when `paused == true`, the animation freezes, but the program still runs in the background, checking for further process.
-**Quit(q)** exits the animation gracefully by setting the `running` flag to `false`. Once `running` becomes `false`, the loop exits and the program executes the `stop()` function and the result is cursor is repositioned, console text color is reset with a `goodbye` message.
+**Quit(q)** exits the animation gracefully by setting the `running` flag to `false`. Once `running` becomes `false`, the loop exits and the program executes the `stop()` function and the result is cursor is repositioned, console text colour is reset with a `goodbye` message. 
+`+` Increase speed, logically, Decrease delay. 
+```
+if (speed > 10) speed -= 10;
+```
+This functions speed up the falling rain animation by reducing the delay between frames. `speed` variable is involved here which is an `int` representing **milliseconds of delay** between frames. When `+` is pressed, the delay between frames decreases by 10 ms- so more frames are rendered per second. There is a lower bound `(speed > 10)` to prevent the animation from going too fast or even hitting zero.
 
-
-
+`-` Decrease  speed, logically, Increase delay.
+Each press on this function `speed +=10`, increases the sleep duration by 10 ms.
 
