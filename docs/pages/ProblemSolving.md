@@ -1,3 +1,4 @@
+[Home](/index.md)
 
 # Problem Solving
 First problem I faced was scattered symbol printing all over the screen instead of falling in a proper cascading effect  and each raindrop updated its position randomly or inconsistently. I took references from a website and designed the code in a way where old raindrops were not being erased properly
