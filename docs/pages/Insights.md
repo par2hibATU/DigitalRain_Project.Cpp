@@ -17,3 +17,9 @@ In modern C++, `constexpr` is a way to clearly express the intent of telling the
 Additionally, memory handling became safer and more versatile by using `std::vector` to store raindrop symbols rather than raw arrays. Everything is kept organised and manageable by the code's clean division into classes like `Raindrop` and `MatrixRain`. For instance, `MatrixRain` manages the overall control, rendering, and user input, whereas `Raindrop` concentrates just on symbol production and movement.
 
 I also used `std::this_thread::sleep_for` and `<chrono>` to manage the animation speed in a more modern and type-safe way compared to old-style delays. Simple additions like control flags for `paused` and `running` and static helper functions for symbol creation (`getRandomSymbol()`) keep the logic simple without adding unnecessary complexity. Additionally, it was a conscious decision to make the visual output more dynamic, even though I used Windows-specific APIs for colour changes and pointer movement.  So overall, the code is not just functional—it shows how thoughtful use of modern C++ can lead to better structure, safety, and performance.
+
+`std::chrono`
+I preferred using this `chrono` over `Sleep()` or `time()` for time-related functionality. This allows me to write a type-safe system where time units (milliseconds, seconds, microseconds) are represented with actual types.
+Standard Algorithms (`std::sort`, `std::for_each`)
+Using STL algorithms make code more expressive and declarative. 
+Overall, this project was fun learning. `Digital Rain` is a good topic and a unique aspects of C++ which gives an user the chance of learning C++ in efficient way. I learned to use Object Oriented Coding style, come to know about the Private and Public variable and the constant expression method. It was a whole learning curve throughout the project building duration.
