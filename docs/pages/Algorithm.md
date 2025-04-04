@@ -40,6 +40,34 @@ In every frame, this function check paused state and if the function is not paus
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/27.png" width="650" height="300">
 
 This function calls `update()` and `draw()` function where `update()` function: 
+This function is responsible  for visually rendering a single character of a raindrop at a specific `(x, y)` position on the console screen, with a randomly chosen colour.
+```
+void Raindrop::draw() const {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    ConsoleUtils::setCursorPosition(x, y);
+```
+This functions get the Console Handle and set the Cursor to Raindrop position. This ensures that the character is printed at the right location on the screen.
+```
+int color;
+int randVal = rand() % 3;
+if (randVal == 0)
+    color = FOREGROUND_GREEN | FOREGROUND_INTENSITY;  // Bright green
+else if (randVal == 1)
+    color = FOREGROUND_GREEN;  // Darker green
+else
+    color = FOREGROUND_GREEN | FOREGROUND_BLUE;  // Bluish-green
+```
+This block adds colour diversity to the rain effect. It randomly chooses one of 3 greenish shades and the combinations are made using Windows Console API flags.
+
+```
+SetConsoleTextAttribute(hConsole, color);
+```
+Then this sets the current console text colour and any character printed afterward uses this colour.
+```
+std::wcout << symbols[rand() % symbols.size()];
+SetConsoleTextAttribute(hConsole, 7); // Reset to default color
+```
+This logic here randomly  pick one of its characters to print on each frame and this adds dynamic randomness. This randomness makes the rain constantly change as it falls, contributing to the illusion of activity. Finally the `SetConsoleTextAttribute` resets the console colour to the system default.
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/28.png" width="650" height="300">
 
