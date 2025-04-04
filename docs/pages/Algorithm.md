@@ -39,7 +39,8 @@ In every frame, this function check paused state and if the function is not paus
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/27.png" width="650" height="300">
 
-This function calls `update()` and `draw()` function where `update()` function: 
+This function calls `update()` and `draw()` function where `update()` function:
+
 This function is responsible  for visually rendering a single character of a raindrop at a specific `(x, y)` position on the console screen, with a randomly chosen colour.
 ```
 void Raindrop::draw() const {
