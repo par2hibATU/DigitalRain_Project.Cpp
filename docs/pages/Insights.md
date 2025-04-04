@@ -1,3 +1,5 @@
+[Home](/index.md)
+
 # Modern C++ insight & reflection
 
 This project is a great example of how code may be made more efficient and clean using contemporary C++ features. Utilising `constexpr` for the character array was one of the wise decisions. it locks the permitted symbols at compile time, allowing the compiler to optimise and preventing unintentional mutations. `constexpr` is a powerful keyword introduced in C++11 and expanded in later standards, and it plays a key role in modern C++ programming. It tells the compiler that a value or function can  be evaluated at compile time rather than at runtime. This leads to faster execution, lower memory usage, and fewer runtime errors, especially when used correctly.
