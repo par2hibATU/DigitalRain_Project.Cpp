@@ -19,7 +19,26 @@ This sets the speed of the frame which is 100 milliseconds. start() starts the r
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-04-04 041743.png" width="650" height="300">
 
-This sets the screen height and width.
+This sets the screen height and width. This method is called when the rain starts.
+```
+srand(static_cast<unsigned int>(time(0)));
+```
+This seeds the random number generator so raindrops are not always the same each time when program restarted.
+```
+for (int i = 0; i < screenWidth / 2; ++i) {
+    rainStreams.emplace_back(rand() % screenWidth, rand() % screenHeight, rand() % 10 + 5);
+}
+```
+This `for` loop through and each iteration randomly pick an x and y position with a length (random) and create a `Raindrop` and pushed into the `rainStream` vector.
+But if things go wrong; for example- `emplace_back()` allocates memory. If the system is under pressure or screenWidth is crazy big, then allocation can fail, throwing error.
+```
+} catch (const std::exception& e) {
+    std::wcerr << L"Error initializing raindrops: " << e.what() << L"\n";
+    running = false;
+}
+```
+To cope with such errors, `Exceptions` comes to the scene and handle the error with meaningful message so that the we can catch the problem and fix it as soon as possible.
+
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/23.png" width="650" height="300">
 
