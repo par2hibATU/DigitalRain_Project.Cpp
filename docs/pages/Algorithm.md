@@ -15,7 +15,7 @@
 
 This sets the speed of the frame which is 100 milliseconds. start() starts the rain and stops()  just stops the animation and resets the console cursor.
 
-<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/22.png" width="650" height="300">
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-04-04 041743.png" width="650" height="300">
 
 This sets the screen height and width.
 
