@@ -1,5 +1,5 @@
 ## Introduction
-This project is a console-based C++ application that uses a stream of Unicode letters to create the illusion of a visually dynamic rain-like motion. This project effectively utilizes contemporary C++ technologies and Windows API while showcasing fine control over console rendering real-time user interaction, and structured object-oriented architecture.
+This project is a console-based C++ application that uses a stream of Unicode letters to create the illusion of a visually dynamic rain like motion. This project effectively utilizes contemporary C++ technologies and Windows API while showcasing fine control over console rendering real-time user interaction, and structured object-oriented architecture.
 
 A well defined character set, stated as a **constexpr static wchar_t** array, is at the heart of the system. This approach ensures that the character data is:
  -  Reduced runtime overhead through evaluation at compile time  
@@ -22,13 +22,14 @@ The animation is structured around two main components:
  - **MatrixRain class**: Multiple Raindrop objects are initialized, frame-by-frame rendering is managed, user input is handled (such as stopping, quitting, and speed adjustments), and the main animation loop is maintained. Real-time responsiveness is made possible by controlling the simulation pace with std::this_thread::sleep_for.
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/15.png" width="650" height="300">
 
-_kbhit() and _getch() from **conio.h** are used to detect user inputs non-blocking, providing smooth control without breaking the animation flow.
+**conio.h** header file, short for "console input and output", is a library for C++ that provides functions for performing input/output operations on the console. It can greatly simplify certain console-related tasks compared to standard I/o functions. 
+In this project, _kbhit() and _getch() from **conio.h** are used to detect user inputs non-blocking, providing smooth control without breaking the animation flow.
 
 Additional Features:
 
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/16.png" width="650" height="300">
    
- - **Real-time control**: Press Q to stop, P to pause or continue, and + or - to increase or decrease the speed.
+ - **Real-time control**: In this project, cmd takes some pre-designed input. Commands are: Press Q to stop, P to pause or continue, and + or - to increase or decrease the speed. (More about this discussed on Algorithm section of our blog.
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/17.png" width="650" height="300">
  - **Randomized stream behaviour**: To produce a natural, flowing effect, raindrops have varying initial positions, lengths, and symbol orders.
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/18.png" width="650" height="300">
