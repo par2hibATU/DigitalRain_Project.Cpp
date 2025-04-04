@@ -1,3 +1,4 @@
+ - [Home](/index.md)
 ## Introduction
 This project is a console-based C++ application that uses a stream of Unicode letters to create the illusion of a visually dynamic rain like motion. This project effectively utilizes contemporary C++ technologies and Windows API while showcasing fine control over console rendering real-time user interaction, and structured object-oriented architecture.
 
