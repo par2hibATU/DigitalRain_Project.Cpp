@@ -3,6 +3,8 @@
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/33.png" width="650" height="300">
 
 
+<img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/Screenshot 2025-04-04 042058.png" width="650" height="300">
+
 ### The program begins execution in main(). 
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/20.png" width="650" height="300">
