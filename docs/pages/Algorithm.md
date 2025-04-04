@@ -55,11 +55,11 @@ This moves the cursor to the raindrop's current position and chooses a random gr
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/32.png" width="650" height="300">
 This reads the **Keyboard input** using `_kbhit()` and `_getch()`. It allows the user to **Quit(q)**, **Increased speed (+)**, **Decreased speed (-)**, **Pause/Resume (p/P)**.
 **Pause/Resume (p/P)** maintains a bool paused flag. When p is pressed, the flag flips: 
-'''paused = !paused;'''
+```paused = !paused;```
 In the main loop inside `start():`
-'''if (!paused) {
+```if (!paused) {
     renderFrame(); // Only update if not paused
-}'''
+}```
 So when `paused == true`, the animation freezes, but the program still runs in the background, checking for further process.
 **Quit(q)** exits the animation gracefully by setting the `running` flag to `false`. Once `running` becomes `false`, the loop exits and the program executes the `stop()` function and the result is cursor is repositioned, console text color is reset with a `goodbye` message.
 
