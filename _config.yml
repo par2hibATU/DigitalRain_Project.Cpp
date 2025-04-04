@@ -6,4 +6,4 @@ author:
 description: "An interesting blog about modern Digital rain"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: jekyll-theme-cayman
