@@ -40,6 +40,12 @@ This project is programmed in C++ with a terminal based simulation of the Matrix
 
 ## References
 [Wikipedia](https://en.wikipedia.org/wiki/Digital_rain)
+[1] Kevger (2020) DoubleBufferedWindowsConsole. GitHub. Available at: https://github.com/Kevger/DoubleBufferedWindowsConsole/blob/master/source/DoubleBufferedConsole.h
+[2] Microsoft SetConsoleWindowInfo function. Available at: https://learn.microsoft.com/en-us/windows/console/setconsolewindowinfo
+[3] Microsoft GetConsoleCursorInfo function. Available at: https://learn.microsoft.com/en-us/windows/console/getconsolecursorinfo
+[4] Wikipedia. Available at: https://en.wikipedia.org/wiki/Digital_rain
+
+
 
 
 
