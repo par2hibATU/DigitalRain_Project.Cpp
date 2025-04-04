@@ -29,7 +29,8 @@ Additional Features:
 
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/16.png" width="650" height="300">
    
- - **Real-time control**: In this project, cmd takes some pre-designed input. Commands are: Press Q to stop, P to pause or continue, and + or - to increase or decrease the speed. (More about this discussed on Algorithm section of our blog.
+ - **Real-time control**: In this project, cmd takes some pre-designed input. Commands are: Press Q to stop, P to pause or continue, and + or - to increase or decrease the speed. (More about this discussed on [Algorithm](/docs/pages/Algorithm.md) section of our blog.
+   
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/17.png" width="650" height="300">
  - **Randomized stream behaviour**: To produce a natural, flowing effect, raindrops have varying initial positions, lengths, and symbol orders.
    <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/18.png" width="650" height="300">
