@@ -1,3 +1,5 @@
+[Home](/index.md)
+
 # Algorithm
 
 <img src="https://raw.githubusercontent.com/par2hibATU/DigitalRain_Project.Cpp/main/docs/assets/images/33.png" width="650" height="300">
